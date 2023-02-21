@@ -6,14 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        body {
+        body { /*
             height: 100vh;
             background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
             background-position: center center;
             background-repeat: no-repeat;
+            background-size: cover; obs: ainda não funciona na shorthand
+            background-attachment: fixed; */
+
+            background: black url(imagens/wallpaper002.jpg) center center no-repeat fixed;
             background-size: cover;
         }
+
+        /*Shorthand - background Sequência
+        color>image>position>repeat>siza>attachment*/
         main {
             background-color: white;
             width: 400px;
@@ -27,6 +34,11 @@
 <body>
     <main>
         <h1>Teste de Imagens de Fundo</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis illum ullam, eius eveniet, dolor adipisci placeat nemo nam commodi doloremque accusamus, cupiditate provident cumque aspernatur officia voluptas earum mollitia facere! Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ad commodi eveniet voluptates esse. Mollitia quae error rem earum similique vero ad in officiis voluptates eligendi veniam, optio unde sapiente?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis illum ullam, eius eveniet, dolor adipisci placeat nemo nam commodi doloremque accusamus, cupiditate provident cumque aspernatur officia voluptas earum mollitia facere! Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ad commodi eveniet voluptates esse. Mollitia quae error rem earum similique vero ad in officiis voluptates eligendi veniam, optio unde sapiente?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis illum ullam, eius eveniet, dolor adipisci placeat nemo nam commodi doloremque accusamus, cupiditate provident cumque aspernatur officia voluptas earum mollitia facere! Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ad commodi eveniet voluptates esse. Mollitia quae error rem earum similique vero ad in officiis voluptates eligendi veniam, optio unde sapiente?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis illum ullam, eius eveniet, dolor adipisci placeat nemo nam commodi doloremque accusamus, cupiditate provident cumque aspernatur officia voluptas earum mollitia facere! Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ad commodi eveniet voluptates esse. Mollitia quae error rem earum similique vero ad in officiis voluptates eligendi veniam, optio unde sapiente?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis illum ullam, eius eveniet, dolor adipisci placeat nemo nam commodi doloremque accusamus, cupiditate provident cumque aspernatur officia voluptas earum mollitia facere! Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ad commodi eveniet voluptates esse. Mollitia quae error rem earum similique vero ad in officiis voluptates eligendi veniam, optio unde sapiente?</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis illum ullam, eius eveniet, dolor adipisci placeat nemo nam commodi doloremque accusamus, cupiditate provident cumque aspernatur officia voluptas earum mollitia facere! Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ad commodi eveniet voluptates esse. Mollitia quae error rem earum similique vero ad in officiis voluptates eligendi veniam, optio unde sapiente?</p>
     </main>
 </body>
