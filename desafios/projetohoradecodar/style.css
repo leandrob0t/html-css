@@ -1,0 +1,6 @@
+@charset "UTF-8";
+
+footer.bold p:first-child {
+    color:red
+    
+}
