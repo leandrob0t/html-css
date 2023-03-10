@@ -31,7 +31,7 @@ body {
 .logo {
     flex: 20%;
     /*border: 1px solid black;*/
-    text-align: center;
+    text-align: left;
     margin-left: 10%;
 }
 
@@ -59,6 +59,7 @@ body {
 .menu a:hover {
     color: var(--cor2);
     border-top: 4px solid var(--cor1);
+    transition: 0.5s;
 }
 
 #btn {
@@ -73,19 +74,33 @@ body {
 #btn:hover {
     border: none;
     background-color: var(--cor2);
+    transition: 0.5s;
 }
 
 .header {
     display: flex;
     flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
     /*height: 600px;*/
-    background-color: gray;
+    background-color: white;
 }
 
 .headline {
     margin-left: 10%;
     flex: 40%;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
+}
+
+.headline h2 {
+    font-weight: 900;
+    font-size: 20px;
+    color: var(--cor1);
+}
+
+.headline p {
+    color: gray;
+    text-align: left;
 }
 
 .img-headline {
@@ -97,4 +112,62 @@ body {
 
 .img-headline img {
     max-width: 90%;
+}
+
+.btn-contact {
+    display: inline-block;
+    text-decoration: none;
+    background-color: var(--cor2);
+    color: white;
+    text-transform: uppercase;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.btn-contact:hover {
+    background-color: var(--cor1);
+    transition: 0.5s;
+}
+
+section {
+    display: inline-block;
+    margin-top: 80px;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    border: 1px solid black;
+    /* height: 400px; */
+    padding: 5%;
+    text-align: center;
+    
+}
+
+section h2 {
+    font-size: 50px;
+    width: 100%;
+    font-family: var(--font1);
+    font-weight: bold;
+    color: var(--cor1);
+    
+}
+
+.servicos {
+    display: inline-block;
+    margin-top: 5%;
+}
+
+.card {
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 1%;
+    border: 1px solid var(--cor2);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.card h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
