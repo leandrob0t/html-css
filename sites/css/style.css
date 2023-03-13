@@ -26,6 +26,8 @@ body {
     background-color: white;
     justify-content: center;
     align-items: center;
+    position: fixed;
+    width: 100%;
 }
 
 .logo {
@@ -84,6 +86,7 @@ body {
     align-items: center;
     /*height: 600px;*/
     background-color: white;
+    padding-top: 100px;
 }
 
 .headline {
@@ -135,8 +138,8 @@ section {
     margin-top: 80px;
     margin-left: 5%;
     margin-right: 5%;
-    width: 90%;
-    border: 1px solid black;
+    /* width: 90%; */
+    /* border: 1px solid black; */
     /* height: 400px; */
     padding: 5%;
     text-align: center;
@@ -167,7 +170,63 @@ section h2 {
     cursor: pointer;
 }
 
+.texto-oculto {
+    display: none;
+}
+
+.card:hover {
+    background-color: var(--cor2);
+    color: white;
+    padding: 40px;
+}
+
+.card:hover img {
+    display: none;
+}
+
+.card:hover .card-text {
+    display: none;
+}
+
+.card:hover .texto-oculto {
+    display: block;
+}
+
 .card h3 {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+footer {
+    margin-top: 100px;
+    height: 300px;
+    background-image: linear-gradient(180deg,var(--cor1),#090422,black);
+    text-align: center;
+    border-top: 5px solid var(--cor2);
+}
+
+footer p,b {
+    color: white;
+}
+    
+
+.logo-rodape {
+    padding: 100px;
+    
+}
+
+.agencia {
+    font-family: var(--font1);
+    color: white;
+    font-size: 34px;
+    margin-bottom: 15px;
+}
+
+.whats {
+    position: fixed;
+    bottom: 5px;
+    right: 5px;   
+}
+
+
+    
